@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0 20px;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#current-image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#nasa-image {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid black;
+}
+
+#image-title {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+#image-description {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+#search-form {
+    margin-top: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+#search-history {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#search-history li {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
